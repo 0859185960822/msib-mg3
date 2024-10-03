@@ -3,7 +3,7 @@ module.exports = {
   content: ['./index.html'],
   theme: {
     extend: {
-      fontFamily : { customFont : [ '"font1"' , "prata" ] }
+      fontFamily : { customFont : [ '"font1"' , "Playfair Display" ] }
     },
   },
   plugins: [],
