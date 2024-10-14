@@ -567,8 +567,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.-ml-2 {
-  margin-left: -0.5rem;
+.-ml-2\.5 {
+  margin-left: -0.625rem;
+}
+
+.-ml-3\.5 {
+  margin-left: -0.875rem;
 }
 
 .mb-16 {
@@ -601,18 +605,6 @@ video {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.-ml-2\.5 {
-  margin-left: -0.625rem;
-}
-
-.-ml-3 {
-  margin-left: -0.75rem;
-}
-
-.-ml-3\.5 {
-  margin-left: -0.875rem;
 }
 
 .block {
@@ -807,7 +799,7 @@ video {
 }
 
 .font-customFont {
-  font-family: "font1", Playfair Display;
+  font-family: "font1", Playfair Display, serif;
 }
 
 .text-3xl {
@@ -893,12 +885,12 @@ video {
     margin-bottom: 0px;
   }
 
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .md\:-ml-3\.5 {
     margin-left: -0.875rem;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .md\:h-5 {
